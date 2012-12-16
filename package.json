@@ -2,15 +2,43 @@
   "name": "marked",
   "description": "A markdown parser built for speed",
   "author": "Christopher Jeffrey",
-  "version": "0.2.6",
+
+  "contributors": [{
+    "name": "Nijiko Yonksai",
+    "email": "nijikokun@gmail.com",
+    "url": "http://nexua.org"
+  }],
+
+  "version": "0.2.7",
   "main": "./lib/marked.js",
   "bin": "./bin/marked",
   "man": "./man/marked.1",
   "preferGlobal": false,
-  "repository": "git://github.com/chjj/marked.git",
-  "homepage": "https://github.com/chjj/marked",
-  "bugs": { "url": "http://github.com/chjj/marked/issues" },
-  "keywords": [ "markdown", "markup", "html" ],
-  "tags": [ "markdown", "markup", "html" ],
-  "scripts": { "test": "node test", "bench": "node test --bench" }
+  "repository": "git://github.com/Nijkokun/marked.git",
+  "homepage": "https://github.com/Nijikokun/marked",
+
+  "bugs": {
+    "url": "http://github.com/Nijikokun/marked/issues"
+  },
+
+  "keywords": [
+    "markdown",
+    "markup",
+    "html"
+  ],
+
+  "tags": [
+    "markdown",
+    "markup",
+    "html"
+  ],
+
+  "scripts": {
+    "test": "node test",
+    "bench": "node test --bench"
+  },
+
+  "engine": {
+    "node": ">=0.6.6"
+  }
 }
