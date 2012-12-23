@@ -14,11 +14,11 @@
   "bin": "./bin/marked",
   "man": "./man/marked.1",
   "preferGlobal": false,
-  "repository": "git://github.com/Nijkokun/marked.git",
-  "homepage": "https://github.com/Nijikokun/marked",
+  "repository": "git://github.com/parsify/marked.git",
+  "homepage": "https://github.com/parsify/marked",
 
   "bugs": {
-    "url": "http://github.com/Nijikokun/marked/issues"
+    "url": "http://github.com/parsify/marked/issues"
   },
 
   "keywords": [
